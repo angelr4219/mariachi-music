@@ -1,0 +1,10 @@
+pretty_midi>=0.2.10
+music21>=9.1
+librosa>=0.10
+soundfile>=0.12
+numpy>=1.24
+scipy>=1.11
+PyQt5>=5.15
+# transcription extras (optional)
+# yt-dlp>=2024.1
+# demucs>=4.0
