@@ -53,6 +53,12 @@ class Score:
         self._parts.append(part)
         return part
 
+    def remove_part(self, index: int) -> Part:
+        """Remove and return a part by zero-based index."""
+        if not 0 <= index < len(self._parts):
+            raise IndexError(f"Part index out of range: {index}.")
+        return self._parts.pop(index)
+
     @property
     def parts(self) -> list[Part]:
         return list(self._parts)
@@ -107,17 +113,22 @@ class Score:
         for part in self._parts:
             for measure in part.measures:
                 beat_cursor = 0.0
+                last_beat = beat_cursor
                 for event in measure.events:
+                    is_chord_tone = getattr(event, "chord", False)
+                    display_beat = last_beat if is_chord_tone else beat_cursor
                     row = {
                         "measure": measure.number,
-                        "beat": round(beat_cursor + 1, 3),
+                        "beat": round(display_beat + 1, 3),
                         "instrument": part.instrument.name,
-                        "type": "note" if hasattr(event, "pitch") else "rest",
+                        "type": "chord tone" if is_chord_tone else ("note" if hasattr(event, "pitch") else "rest"),
                         "pitch": str(event.pitch) if hasattr(event, "pitch") else "—",
                         "duration": str(event.duration),
                     }
                     rows.append(row)
-                    beat_cursor += event.beats
+                    if not is_chord_tone:
+                        last_beat = beat_cursor
+                        beat_cursor += event.beats
         return rows
 
     def __repr__(self) -> str:

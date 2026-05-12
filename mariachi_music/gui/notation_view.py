@@ -625,15 +625,21 @@ class NotationView(QWidget):
         pixels_per_beat = usable_width / total_beats
 
         beat_cursor = 0.0
+        last_note_x = x_start + 4
         for event in measure.events:
-            note_x = x_start + beat_cursor * pixels_per_beat + 4
+            if isinstance(event, Note) and event.chord:
+                note_x = last_note_x
+            else:
+                note_x = x_start + beat_cursor * pixels_per_beat + 4
 
             if isinstance(event, Note):
                 self._draw_note(painter, event, clef, note_x, staff_top)
             elif isinstance(event, Rest):
                 self._draw_rest(painter, event, note_x, staff_top, pixels_per_beat)
 
-            beat_cursor += event.beats
+            if not (isinstance(event, Note) and event.chord):
+                last_note_x = note_x
+                beat_cursor += event.beats
 
     def _draw_note(
         self, painter: QPainter, note: Note, clef: str, x: float, staff_top: float

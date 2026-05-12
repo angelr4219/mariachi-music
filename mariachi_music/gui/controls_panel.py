@@ -10,6 +10,7 @@ from PyQt5.QtWidgets import (
     QGroupBox,
     QLabel,
     QLineEdit,
+    QListWidget,
     QPushButton,
     QSpinBox,
     QVBoxLayout,
@@ -24,6 +25,13 @@ class ControlsPanel(QWidget):
 
     # Emitted when the user clicks Generate Scale
     generate_requested = pyqtSignal(dict)
+    notes_requested = pyqtSignal(dict)
+    chords_requested = pyqtSignal(dict)
+    template_requested = pyqtSignal(dict)
+    classify_audio_requested = pyqtSignal()
+    add_instrument_requested = pyqtSignal(str)
+    remove_instrument_requested = pyqtSignal(int)
+    selected_part_changed = pyqtSignal(int)
 
     def __init__(self, parent: QWidget | None = None) -> None:
         super().__init__(parent)
@@ -68,6 +76,34 @@ class ControlsPanel(QWidget):
 
         layout.addWidget(score_box)
 
+        # ── Instruments ────────────────────────────────────────────────
+        inst_box = QGroupBox("Instruments")
+        inst_layout = QVBoxLayout(inst_box)
+
+        self.part_list = QListWidget()
+        self.part_list.currentRowChanged.connect(self.selected_part_changed.emit)
+        inst_layout.addWidget(self.part_list)
+
+        inst_controls = QFormLayout()
+        self.add_instrument_combo = QComboBox()
+        self.add_instrument_combo.addItems(sorted(INSTRUMENTS.keys()))
+        inst_controls.addRow("Add:", self.add_instrument_combo)
+
+        self.add_instrument_btn = QPushButton("Add Instrument")
+        self.add_instrument_btn.clicked.connect(
+            lambda: self.add_instrument_requested.emit(self.add_instrument_combo.currentText())
+        )
+        inst_controls.addRow(self.add_instrument_btn)
+
+        self.remove_instrument_btn = QPushButton("Remove Selected")
+        self.remove_instrument_btn.clicked.connect(
+            lambda: self.remove_instrument_requested.emit(self.part_list.currentRow())
+        )
+        inst_controls.addRow(self.remove_instrument_btn)
+        inst_layout.addLayout(inst_controls)
+
+        layout.addWidget(inst_box)
+
         # ── Scale Generator ─────────────────────────────────────────────
         gen_box = QGroupBox("Scale Generator")
         gen_form = QFormLayout(gen_box)
@@ -100,7 +136,84 @@ class ControlsPanel(QWidget):
         gen_form.addRow(self.generate_btn)
 
         layout.addWidget(gen_box)
+
+        # ── Mariachi Template Engine ────────────────────────────────────
+        template_box = QGroupBox("Mariachi Template Engine")
+        template_form = QFormLayout(template_box)
+
+        self.template_genre_combo = QComboBox()
+        self.template_genre_combo.addItems(["ranchera", "son", "bolero", "polca_ranchera"])
+        template_form.addRow("Genre:", self.template_genre_combo)
+
+        self.template_context_combo = QComboBox()
+        self.template_context_combo.addItems([
+            "restaurant",
+            "cantina",
+            "show",
+            "restaurant_or_private_party",
+            "show_or_concert",
+        ])
+        template_form.addRow("Context:", self.template_context_combo)
+
+        self.template_length_combo = QComboBox()
+        self.template_length_combo.addItems(["full", "short", "auto"])
+        template_form.addRow("Length:", self.template_length_combo)
+
+        self.template_subtype_combo = QComboBox()
+        self.template_subtype_combo.addItems(["", "ranchera_3_4", "polca_ranchera"])
+        template_form.addRow("Subtype:", self.template_subtype_combo)
+
+        self.generate_template_btn = QPushButton("Generate Arrangement")
+        self.generate_template_btn.setStyleSheet(
+            "QPushButton { background: #8a5a2b; color: white; font-weight: bold; "
+            "padding: 6px; border-radius: 4px; }"
+            "QPushButton:hover { background: #a36b34; }"
+        )
+        self.generate_template_btn.clicked.connect(self._on_generate_template)
+        template_form.addRow(self.generate_template_btn)
+
+        self.classify_audio_btn = QPushButton("Classify Audio...")
+        self.classify_audio_btn.clicked.connect(self.classify_audio_requested.emit)
+        template_form.addRow(self.classify_audio_btn)
+
+        layout.addWidget(template_box)
+
+        # ── Manual Writer ───────────────────────────────────────────────
+        write_box = QGroupBox("Manual Writer")
+        write_form = QFormLayout(write_box)
+
+        self.note_entry = QLineEdit()
+        self.note_entry.setPlaceholderText("C4 D4 E4 or C D E")
+        write_form.addRow("Notes:", self.note_entry)
+
+        self.add_notes_btn = QPushButton("Add Notes")
+        self.add_notes_btn.clicked.connect(self._on_add_notes)
+        write_form.addRow(self.add_notes_btn)
+
+        self.chord_entry = QLineEdit()
+        self.chord_entry.setPlaceholderText("G, A, D, C or G Am D7 C")
+        write_form.addRow("Chords:", self.chord_entry)
+
+        self.add_chords_btn = QPushButton("Add Chords")
+        self.add_chords_btn.setStyleSheet(
+            "QPushButton { background: #6b5b95; color: white; font-weight: bold; "
+            "padding: 6px; border-radius: 4px; }"
+            "QPushButton:hover { background: #7b69ad; }"
+        )
+        self.add_chords_btn.clicked.connect(self._on_add_chords)
+        write_form.addRow(self.add_chords_btn)
+
+        layout.addWidget(write_box)
         layout.addStretch()
+
+    def set_parts(self, names: list[str], selected_index: int = 0) -> None:
+        self.part_list.blockSignals(True)
+        self.part_list.clear()
+        for idx, name in enumerate(names, 1):
+            self.part_list.addItem(f"{idx}. {name}")
+        if names:
+            self.part_list.setCurrentRow(max(0, min(selected_index, len(names) - 1)))
+        self.part_list.blockSignals(False)
 
     def _on_generate(self) -> None:
         params = {
@@ -116,6 +229,39 @@ class ControlsPanel(QWidget):
             "ascending": self.direction_combo.currentText() == "Ascending",
         }
         self.generate_requested.emit(params)
+
+    def _base_params(self) -> dict:
+        return {
+            "title": self.title_edit.text() or "Untitled",
+            "composer": self.composer_edit.text(),
+            "tempo": self.tempo_spin.value(),
+            "key": self.key_combo.currentText(),
+            "mode": self.mode_combo.currentText(),
+            "time_signature": self.time_sig_combo.currentText(),
+            "instrument": self.instrument_combo.currentText(),
+            "octave": self.octave_spin.value(),
+            "duration": self.duration_combo.currentText(),
+        }
+
+    def _on_add_notes(self) -> None:
+        params = self._base_params()
+        params["notes"] = self.note_entry.text()
+        self.notes_requested.emit(params)
+
+    def _on_add_chords(self) -> None:
+        params = self._base_params()
+        params["chords"] = self.chord_entry.text()
+        self.chords_requested.emit(params)
+
+    def _on_generate_template(self) -> None:
+        params = self.get_score_params()
+        params.update({
+            "genre": self.template_genre_combo.currentText(),
+            "context": self.template_context_combo.currentText(),
+            "length": self.template_length_combo.currentText(),
+            "subtype": self.template_subtype_combo.currentText(),
+        })
+        self.template_requested.emit(params)
 
     def get_score_params(self) -> dict:
         return {

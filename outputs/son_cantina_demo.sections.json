@@ -1,0 +1,111 @@
+{
+  "request": {
+    "genre": "son",
+    "context": "cantina",
+    "key": "D",
+    "mode": "major",
+    "tempo": null,
+    "length": "auto",
+    "ensemble": null,
+    "subtype": "",
+    "title": "",
+    "composer": ""
+  },
+  "template": {
+    "genre": "son",
+    "meter": [
+      "6/8",
+      "3/4"
+    ],
+    "rhythm_style": "son",
+    "feel": "fast_lively_2_against_3",
+    "intro_rule": "intro should closely define the main melodic material",
+    "ending_rule": "final A double-prime truncated signature",
+    "innovation_allowed": [
+      "melodic_embellishment_during_vocal_sections",
+      "small_supporting_line_variations"
+    ],
+    "innovation_restricted": [
+      "main_melody_replacement",
+      "core_form_replacement"
+    ]
+  },
+  "context": {
+    "name": "cantina",
+    "ensemble_size": "small",
+    "typical_instruments": [
+      "Guitarr\u00f3n",
+      "Vihuela",
+      "Trumpet",
+      "Violin"
+    ],
+    "arrangement_length": "short",
+    "use_truncated_forms": true,
+    "innovation_level": "low",
+    "standardization": "high"
+  },
+  "sections": [
+    {
+      "index": 1,
+      "label": "A",
+      "role": "instrumental_melody",
+      "degrees": [
+        1,
+        5
+      ],
+      "roman_numerals": [
+        "I",
+        "V"
+      ],
+      "start_measure": 1,
+      "measure_count": 2
+    },
+    {
+      "index": 2,
+      "label": "A'",
+      "role": "vocal_verse_melody_variant",
+      "degrees": [
+        1,
+        5
+      ],
+      "roman_numerals": [
+        "I",
+        "V"
+      ],
+      "start_measure": 3,
+      "measure_count": 2
+    },
+    {
+      "index": 3,
+      "label": "B",
+      "role": "vocal_chorus",
+      "degrees": [
+        4,
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "IV",
+        "V",
+        "I"
+      ],
+      "start_measure": 5,
+      "measure_count": 3
+    },
+    {
+      "index": 4,
+      "label": "A''",
+      "role": "truncated_signature_ending",
+      "degrees": [
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "V",
+        "I"
+      ],
+      "start_measure": 8,
+      "measure_count": 2
+    }
+  ]
+}

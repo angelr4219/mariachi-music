@@ -1,0 +1,117 @@
+{
+  "request": {
+    "genre": "bolero",
+    "context": "restaurant",
+    "key": "C",
+    "mode": "major",
+    "tempo": null,
+    "length": "short",
+    "ensemble": [
+      "Guitarr\u00f3n",
+      "Vihuela",
+      "Violin"
+    ],
+    "subtype": "",
+    "title": "",
+    "composer": ""
+  },
+  "template": {
+    "genre": "bolero",
+    "meter": "4/4",
+    "rhythm_style": "bolero",
+    "feel": "romantic_ballad",
+    "intro_rule": "intro may be independent but should establish key, mood, and contour",
+    "ending_rule": "final tag or held cadence",
+    "innovation_allowed": [
+      "new_intro_that_sets_mood_or_tonality",
+      "trumpet_bridge_improvisation",
+      "solo_vocal_expression"
+    ],
+    "innovation_restricted": []
+  },
+  "context": {
+    "name": "restaurant",
+    "ensemble_size": "medium",
+    "typical_instruments": [
+      "Guitarr\u00f3n",
+      "Vihuela",
+      "Guitar",
+      "Trumpet",
+      "Trumpet",
+      "Violin",
+      "Violin"
+    ],
+    "arrangement_length": "medium_or_full",
+    "use_truncated_forms": "sometimes",
+    "innovation_level": "medium",
+    "standardization": "medium_high"
+  },
+  "sections": [
+    {
+      "index": 1,
+      "label": "A",
+      "role": "instrumental_intro_independent_mood",
+      "degrees": [
+        1,
+        5
+      ],
+      "roman_numerals": [
+        "I",
+        "V"
+      ],
+      "start_measure": 1,
+      "measure_count": 2
+    },
+    {
+      "index": 2,
+      "label": "B",
+      "role": "solo_verse",
+      "degrees": [
+        1,
+        6,
+        2,
+        5
+      ],
+      "roman_numerals": [
+        "I",
+        "vi",
+        "ii",
+        "V"
+      ],
+      "start_measure": 3,
+      "measure_count": 4
+    },
+    {
+      "index": 3,
+      "label": "C",
+      "role": "vocal_bridge",
+      "degrees": [
+        4,
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "IV",
+        "V",
+        "I"
+      ],
+      "start_measure": 7,
+      "measure_count": 3
+    },
+    {
+      "index": 4,
+      "label": "D",
+      "role": "final_tag",
+      "degrees": [
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "V",
+        "I"
+      ],
+      "start_measure": 10,
+      "measure_count": 2
+    }
+  ]
+}

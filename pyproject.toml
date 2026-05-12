@@ -33,6 +33,7 @@ mariachi-scale  = "mariachi_music.cli.create_scale:main"
 mariachi-score  = "mariachi_music.cli.create_score:main"
 mariachi-export = "mariachi_music.cli.export_score:main"
 mariachi-transcribe = "mariachi_music.cli.transcribe_audio:main"
+mariachi-template = "mariachi_music.cli.mariachi_template:main"
 mariachi-gui    = "mariachi_music.gui.app:main"
 
 [tool.setuptools.packages.find]

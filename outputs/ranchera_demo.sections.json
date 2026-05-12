@@ -1,0 +1,252 @@
+{
+  "request": {
+    "genre": "ranchera",
+    "context": "restaurant",
+    "key": "G",
+    "mode": "major",
+    "tempo": 132.0,
+    "length": "full",
+    "ensemble": null,
+    "subtype": "",
+    "title": "",
+    "composer": ""
+  },
+  "template": {
+    "genre": "ranchera",
+    "meter": "3/4",
+    "rhythm_style": "waltz",
+    "feel": "waltz_like_ranchera",
+    "intro_rule": "intro often states the main melody like a son",
+    "ending_rule": "standard 3/4 ranchera ending",
+    "innovation_allowed": [
+      "intro_arrangement_variation",
+      "closing_section_variation",
+      "vocal_display",
+      "supporting_line_embellishment"
+    ],
+    "innovation_restricted": []
+  },
+  "context": {
+    "name": "restaurant",
+    "ensemble_size": "medium",
+    "typical_instruments": [
+      "Guitarr\u00f3n",
+      "Vihuela",
+      "Guitar",
+      "Trumpet",
+      "Trumpet",
+      "Violin",
+      "Violin"
+    ],
+    "arrangement_length": "medium_or_full",
+    "use_truncated_forms": "sometimes",
+    "innovation_level": "medium",
+    "standardization": "medium_high"
+  },
+  "sections": [
+    {
+      "index": 1,
+      "label": "A",
+      "role": "intro_states_main_melody",
+      "degrees": [
+        1,
+        5
+      ],
+      "roman_numerals": [
+        "I",
+        "V"
+      ],
+      "start_measure": 1,
+      "measure_count": 2
+    },
+    {
+      "index": 2,
+      "label": "A'",
+      "role": "intro_repeat_or_lead_in",
+      "degrees": [
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "V",
+        "I"
+      ],
+      "start_measure": 3,
+      "measure_count": 2
+    },
+    {
+      "index": 3,
+      "label": "B",
+      "role": "solo_verse",
+      "degrees": [
+        1,
+        4,
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "I",
+        "IV",
+        "V",
+        "I"
+      ],
+      "start_measure": 5,
+      "measure_count": 4
+    },
+    {
+      "index": 4,
+      "label": "B",
+      "role": "solo_verse_repeat",
+      "degrees": [
+        1,
+        4,
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "I",
+        "IV",
+        "V",
+        "I"
+      ],
+      "start_measure": 9,
+      "measure_count": 4
+    },
+    {
+      "index": 5,
+      "label": "C",
+      "role": "harmony_chorus_first_half",
+      "degrees": [
+        4,
+        1,
+        5
+      ],
+      "roman_numerals": [
+        "IV",
+        "I",
+        "V"
+      ],
+      "start_measure": 13,
+      "measure_count": 3
+    },
+    {
+      "index": 6,
+      "label": "C'",
+      "role": "harmony_chorus_second_half",
+      "degrees": [
+        4,
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "IV",
+        "V",
+        "I"
+      ],
+      "start_measure": 16,
+      "measure_count": 3
+    },
+    {
+      "index": 7,
+      "label": "A",
+      "role": "intro_return",
+      "degrees": [
+        1,
+        5
+      ],
+      "roman_numerals": [
+        "I",
+        "V"
+      ],
+      "start_measure": 19,
+      "measure_count": 2
+    },
+    {
+      "index": 8,
+      "label": "A'",
+      "role": "lead_in_return",
+      "degrees": [
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "V",
+        "I"
+      ],
+      "start_measure": 21,
+      "measure_count": 2
+    },
+    {
+      "index": 9,
+      "label": "B",
+      "role": "solo_verse",
+      "degrees": [
+        1,
+        4,
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "I",
+        "IV",
+        "V",
+        "I"
+      ],
+      "start_measure": 23,
+      "measure_count": 4
+    },
+    {
+      "index": 10,
+      "label": "B",
+      "role": "solo_verse_repeat",
+      "degrees": [
+        1,
+        4,
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "I",
+        "IV",
+        "V",
+        "I"
+      ],
+      "start_measure": 27,
+      "measure_count": 4
+    },
+    {
+      "index": 11,
+      "label": "C",
+      "role": "harmony_chorus_first_half",
+      "degrees": [
+        4,
+        1,
+        5
+      ],
+      "roman_numerals": [
+        "IV",
+        "I",
+        "V"
+      ],
+      "start_measure": 31,
+      "measure_count": 3
+    },
+    {
+      "index": 12,
+      "label": "C''",
+      "role": "final_chorus_ending",
+      "degrees": [
+        4,
+        5,
+        1
+      ],
+      "roman_numerals": [
+        "IV",
+        "V",
+        "I"
+      ],
+      "start_measure": 34,
+      "measure_count": 3
+    }
+  ]
+}

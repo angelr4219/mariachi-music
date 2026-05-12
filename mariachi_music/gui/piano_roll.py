@@ -637,7 +637,7 @@ class PianoRollCanvas(QWidget):
         self.update()
 
     def _perform_drag(self, pos: QPoint) -> None:
-        """Move the dragged note to match the current mouse position."""
+        """Move the dragged note or chord group to match the current mouse position."""
         if self._drag_note is None or self._part is None:
             return
 
@@ -660,28 +660,26 @@ class PianoRollCanvas(QWidget):
         if abs(new_beat - old_beat) < 1e-9 and new_midi == old_pitch.midi_number:
             return   # nothing changed
 
-        # Build new Pitch from MIDI
-        new_pitch = Pitch.from_midi(new_midi)
-
-        # Mutate the Note object in place (both pitch and timing)
         nd = self._drag_note
-        # Remove old note and reinsert with new properties
-        old_note = nd.note
-        new_note = Note(
-            pitch=new_pitch,
-            duration=old_note.duration,
-            velocity=old_note.velocity,
-            chord=old_note.chord,
-            tie_start=old_note.tie_start,
-            tie_end=old_note.tie_end,
-            lyrics=old_note.lyrics,
-        )
-
         measures = self._part.measures
-        # Remove from old location
         old_measure = measures[nd.measure_idx]
-        if old_note in old_measure._events:
-            old_measure._events.remove(old_note)
+        group_start, group_notes = self._chord_group_for_record(nd)
+        semitone_delta = new_midi - self._drag_origin_midi
+
+        new_notes: list[Note] = []
+        for i, old_note in enumerate(group_notes):
+            new_pitch = old_note.pitch.transpose_semitones(semitone_delta)
+            new_notes.append(Note(
+                pitch=new_pitch,
+                duration=old_note.duration,
+                velocity=old_note.velocity,
+                chord=i > 0,
+                tie_start=old_note.tie_start,
+                tie_end=old_note.tie_end,
+                lyrics=old_note.lyrics,
+            ))
+
+        del old_measure._events[group_start:group_start + len(group_notes)]
 
         # Find destination measure for new_beat
         m_idx, offset_in_measure = self._beat_to_measure_position(new_beat)
@@ -694,7 +692,8 @@ class PianoRollCanvas(QWidget):
 
         dest_measure = self._part.measures[m_idx]
         # Insert at the right position within that measure
-        self._insert_note_at_offset(dest_measure, new_note, offset_in_measure)
+        for note in reversed(new_notes):
+            self._insert_note_at_offset(dest_measure, note, offset_in_measure)
 
         self._rebuild_note_records()
         # Re-identify the dragged note after rebuild
@@ -704,8 +703,32 @@ class PianoRollCanvas(QWidget):
         self.update()
         self.notes_changed.emit()
         self.status_message.emit(
-            f"Moved: {new_pitch}  beat {new_beat:.2f}  {old_note.duration}"
+            f"Moved: {len(new_notes)} note(s)  beat {new_beat:.2f}"
         )
+
+    def _chord_group_for_record(self, nd: _NoteData) -> tuple[int, list[Note]]:
+        """Return contiguous notes that make up the selected chord group."""
+        if self._part is None:
+            return nd.event_idx, [nd.note]
+        measure = self._part.measures[nd.measure_idx]
+        events = measure._events
+
+        start = nd.event_idx
+        while start > 0 and isinstance(events[start], Note) and events[start].chord:
+            start -= 1
+
+        group: list[Note] = []
+        idx = start
+        while idx < len(events):
+            event = events[idx]
+            if not isinstance(event, Note):
+                break
+            if idx != start and not event.chord:
+                break
+            group.append(event)
+            idx += 1
+
+        return start, group
 
     def _beat_to_measure_position(self, abs_beat: float) -> tuple[int | None, float]:
         """Convert an absolute beat to (measure_index, offset_within_measure).
@@ -741,7 +764,8 @@ class PianoRollCanvas(QWidget):
             if beat >= offset - 1e-9:
                 measure._events.insert(i, note)
                 return
-            beat += evt.beats
+            if not (isinstance(evt, Note) and evt.chord):
+                beat += evt.beats
         measure._events.append(note)
 
     def _find_note_near(self, beat: float, midi: int) -> _NoteData | None:
