@@ -16,6 +16,8 @@ class Note:
         pitch:      The sounding pitch (e.g. Pitch("C", "", 4) for C4).
         duration:   How long the note lasts.
         velocity:   MIDI velocity 0–127 (default 90).
+        chord:      True when this note starts at the same time as the previous
+                    note in the measure.
         tie_start:  True if this note is tied into the next note.
         tie_end:    True if this note is tied from the previous note.
         lyrics:     Optional lyric syllable for vocal parts.
@@ -24,6 +26,7 @@ class Note:
     pitch: Pitch
     duration: Duration
     velocity: int = 90
+    chord: bool = False
     tie_start: bool = False
     tie_end: bool = False
     lyrics: str = ""

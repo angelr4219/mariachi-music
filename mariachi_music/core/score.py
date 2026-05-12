@@ -75,6 +75,11 @@ class Score:
         from mariachi_music.export.midi_export import export_score_midi
         return export_score_midi(self, Path(path))
 
+    def export_lilypond(self, path: str | Path) -> Path:
+        """Export this score as a LilyPond .ly file."""
+        from mariachi_music.export.lilypond_export import export_score_lilypond
+        return export_score_lilypond(self, Path(path))
+
     # ------------------------------------------------------------------
     # Inspection
     # ------------------------------------------------------------------

@@ -28,6 +28,16 @@ _VALID_MODES = ["major", "minor", "dorian", "phrygian", "lydian",
                 "mixolydian", "locrian", "chromatic"]
 
 
+def _instrument_name(value: str) -> str:
+    """Return the canonical instrument name for case-insensitive CLI input."""
+    key = value.strip().lower()
+    for name in INSTRUMENTS:
+        if name.lower() == key:
+            return name
+    valid = ", ".join(sorted(INSTRUMENTS))
+    raise argparse.ArgumentTypeError(f"invalid instrument {value!r}; choose from: {valid}")
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="mariachi-scale",
@@ -41,8 +51,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--time-signature", default="4/4", dest="time_signature",
                    help="Time signature (e.g. 4/4, 3/4, 6/8).")
     p.add_argument("--tempo", type=float, default=120.0, help="Beats per minute.")
-    p.add_argument("--instrument", default="Violin",
-                   choices=sorted(INSTRUMENTS.keys()), help="Instrument name.")
+    p.add_argument("--instrument", default="Violin", type=_instrument_name,
+                   metavar="INSTRUMENT", help="Instrument name.")
     p.add_argument("--descending", action="store_true",
                    help="Generate descending scale instead of ascending.")
     p.add_argument("--title", default="", help="Score title (auto-generated if omitted).")

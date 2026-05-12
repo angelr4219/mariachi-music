@@ -15,7 +15,7 @@ _MAJOR_FIFTHS: dict[str, int] = {
 # Natural minor relative key → same fifths as its relative major
 _MINOR_ROOTS: dict[str, str] = {
     "A": "C", "E": "G", "B": "D", "F#": "A", "C#": "E", "G#": "B", "D#": "F#",
-    "D": "Bb", "G": "Eb", "C": "Ab", "F": "Db", "Bb": "Gb", "Eb": "Cb",
+    "D": "F", "G": "Bb", "C": "Eb", "F": "Ab", "Bb": "Db", "Eb": "Gb",
 }
 
 _VALID_MODES = {"major", "minor", "dorian", "phrygian", "lydian", "mixolydian", "aeolian", "locrian"}

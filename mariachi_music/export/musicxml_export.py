@@ -55,6 +55,8 @@ def _build_part_list(root: ET.Element, score: Score) -> None:
 
 def _build_note_element(parent: ET.Element, event: Note | Rest, divisions: int) -> None:
     note_el = _sub(parent, "note")
+    if isinstance(event, Note) and event.chord:
+        _sub(note_el, "chord")
     if isinstance(event, Rest):
         _sub(note_el, "rest")
     else:

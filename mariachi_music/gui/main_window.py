@@ -12,6 +12,7 @@ from PyQt5.QtWidgets import (
     QMessageBox,
     QSplitter,
     QStatusBar,
+    QTabWidget,
     QWidget,
 )
 
@@ -20,6 +21,7 @@ from mariachi_music.generation.scale_generator import generate_scale_score
 from .controls_panel import ControlsPanel
 from .score_view import ScoreView
 from .export_panel import ExportPanel
+from .piano_roll import PianoRollWidget
 
 
 class MainWindow(QMainWindow):
@@ -28,7 +30,7 @@ class MainWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
         self.setWindowTitle("Mariachi Music — Score Generator")
-        self.resize(1280, 720)
+        self.resize(1400, 800)
         self._current_score: Score | None = None
         self._build_ui()
         self._build_menu()
@@ -43,9 +45,25 @@ class MainWindow(QMainWindow):
         self._controls.generate_requested.connect(self._on_generate)
         splitter.addWidget(self._controls)
 
-        # Center: score view
+        # Center: tabbed view with Score Table and Piano Roll
+        self._center_tabs = QTabWidget()
+        self._center_tabs.setTabPosition(QTabWidget.North)
+        self._center_tabs.setDocumentMode(True)
+        self._center_tabs.setStyleSheet(
+            "QTabBar::tab { padding: 6px 16px; font-size: 12px; }"
+            "QTabBar::tab:selected { font-weight: bold; }"
+        )
+
+        # Tab 0: original note-table view
         self._score_view = ScoreView()
-        splitter.addWidget(self._score_view)
+        self._center_tabs.addTab(self._score_view, "Score Table")
+
+        # Tab 1: piano roll editor
+        self._piano_roll = PianoRollWidget()
+        self._piano_roll.notes_changed.connect(self._on_notes_changed)
+        self._center_tabs.addTab(self._piano_roll, "Piano Roll")
+
+        splitter.addWidget(self._center_tabs)
 
         # Right: export panel
         self._export_panel = ExportPanel()
@@ -92,6 +110,19 @@ class MainWindow(QMainWindow):
         quit_action.triggered.connect(self.close)
         file_menu.addAction(quit_action)
 
+        # View menu
+        view_menu = menubar.addMenu("View")
+
+        table_action = QAction("Score Table", self)
+        table_action.setShortcut("Ctrl+1")
+        table_action.triggered.connect(lambda: self._center_tabs.setCurrentIndex(0))
+        view_menu.addAction(table_action)
+
+        roll_action = QAction("Piano Roll", self)
+        roll_action.setShortcut("Ctrl+2")
+        roll_action.triggered.connect(lambda: self._center_tabs.setCurrentIndex(1))
+        view_menu.addAction(roll_action)
+
         # Tools menu
         tools_menu = menubar.addMenu("Tools")
         gen_action = QAction("Generate Scale", self)
@@ -127,15 +158,38 @@ class MainWindow(QMainWindow):
         self._current_score = score
         self._score_view.load_score(score)
         self._export_panel.set_score(score)
+
+        # Load the first part into the piano roll
+        if score.parts:
+            self._piano_roll.load_part(score.parts[0])
+        else:
+            self._piano_roll.clear()
+
+        note_count = sum(len(p.all_notes) for p in score.parts)
+        measure_count = sum(len(p.measures) for p in score.parts)
         self._show_status(
             f"Generated: {score.title} — "
-            f"{sum(len(p.all_notes) for p in score.parts)} notes, "
-            f"{sum(len(p.measures) for p in score.parts)} measures."
+            f"{note_count} notes, "
+            f"{measure_count} measures."
         )
+
+    def _on_notes_changed(self) -> None:
+        """Called whenever the piano roll modifies the Part.
+
+        Refreshes the score table view to stay in sync with edits.
+        """
+        if self._current_score is not None:
+            self._score_view.load_score(self._current_score)
+            note_count = sum(len(p.all_notes) for p in self._current_score.parts)
+            self._show_status(
+                f"{self._current_score.title} — "
+                f"{note_count} notes (piano roll edit)"
+            )
 
     def _new_score(self) -> None:
         self._current_score = None
         self._score_view.clear()
+        self._piano_roll.clear()
         self._export_panel.set_score(None)  # type: ignore[arg-type]
         self._show_status("New score. Configure settings and click Generate Scale.")
 
@@ -148,5 +202,5 @@ class MainWindow(QMainWindow):
             "About Mariachi Music",
             "Mariachi Music v0.1\n\n"
             "Score generation, transcription, and sheet music export.\n\n"
-            "Generate scales → export MusicXML → open in MuseScore.",
+            "Generate scales → edit in Piano Roll → export MusicXML / MIDI.",
         )

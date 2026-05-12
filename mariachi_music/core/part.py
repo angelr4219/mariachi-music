@@ -86,6 +86,36 @@ class Part:
             current = self._measures[-1]
         current.add(note, strict=False)
 
+    def add_chord(
+        self,
+        pitch_strings: list[str],
+        duration_str: str = "quarter",
+        velocity: int = 90,
+    ) -> None:
+        """Add simultaneous notes as one rhythmic chord event.
+
+        The first note consumes rhythmic time. Remaining notes are marked as
+        chord tones and start at the same beat as the first note.
+        """
+        if not pitch_strings:
+            raise ValueError("Chord must contain at least one pitch.")
+
+        notes = [
+            Note.from_str(pitch_str, duration_str, velocity)
+            for pitch_str in pitch_strings
+        ]
+        for note in notes[1:]:
+            note.chord = True
+
+        if not self._measures or self._measures[-1].is_full:
+            self.new_measure()
+        current = self._measures[-1]
+        if notes[0].beats > current.remaining_beats + 1e-9:
+            self.new_measure()
+            current = self._measures[-1]
+        for note in notes:
+            current.add(note, strict=False)
+
     def add_rest(self, duration_str: str = "quarter") -> None:
         rest = Rest.from_str(duration_str)
         if not self._measures or self._measures[-1].is_full:

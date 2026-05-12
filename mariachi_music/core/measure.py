@@ -34,7 +34,12 @@ class Measure:
 
     @property
     def used_beats(self) -> float:
-        return sum(e.beats for e in self._events)
+        total = 0.0
+        for event in self._events:
+            if isinstance(event, Note) and event.chord:
+                continue
+            total += event.beats
+        return total
 
     @property
     def remaining_beats(self) -> float:

@@ -35,20 +35,25 @@ def export_score_midi(score: Score, path: Path) -> Path:
         )
 
         cursor_sec = 0.0
+        last_start_sec = 0.0
         for measure in part.measures:
             for event in measure.events:
                 duration_sec = score.tempo.duration_sec(event.beats)
                 if isinstance(event, Note):
+                    start_sec = last_start_sec if event.chord else cursor_sec
                     midi_num = event.pitch.midi_number
                     midi_num = max(0, min(127, midi_num))
                     pm_note = pretty_midi.Note(
                         velocity=event.velocity,
                         pitch=midi_num,
-                        start=cursor_sec,
-                        end=cursor_sec + duration_sec,
+                        start=start_sec,
+                        end=start_sec + duration_sec,
                     )
                     instrument.notes.append(pm_note)
-                cursor_sec += duration_sec
+                    if not event.chord:
+                        last_start_sec = cursor_sec
+                if not (isinstance(event, Note) and event.chord):
+                    cursor_sec += duration_sec
 
         midi.instruments.append(instrument)
 
