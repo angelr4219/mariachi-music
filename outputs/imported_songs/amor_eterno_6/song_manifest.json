@@ -1,0 +1,31 @@
+{
+  "title": "amor eterno",
+  "source": "https://www.youtube.com/watch?v=8DE4H7bd0vs",
+  "source_type": "youtube_url",
+  "genre": "bolero",
+  "tempo_bpm": 172.0,
+  "time_signature": "4/4",
+  "instruments": [
+    "Guitarr\u00f3n",
+    "Guitar",
+    "Violin"
+  ],
+  "strum_style": "strum_with_chord_on_top",
+  "section_notes": "",
+  "key": "C",
+  "mode": "major",
+  "song_dir": "outputs/imported_songs/amor_eterno_6",
+  "wav_path": "outputs/imported_songs/amor_eterno_6/source.wav",
+  "stems_dir": "outputs/imported_songs/amor_eterno_6/stems",
+  "stems": {
+    "guitarron": "outputs/imported_songs/amor_eterno_6/stems/guitarron.wav",
+    "rhythm": "outputs/imported_songs/amor_eterno_6/stems/rhythm.wav",
+    "violins": "outputs/imported_songs/amor_eterno_6/stems/violins.wav"
+  },
+  "profile_path": "outputs/imported_songs/amor_eterno_6/song_profile.json",
+  "analysis_path": "outputs/imported_songs/amor_eterno_6/analysis/source_analysis.json",
+  "analysis_score_path": "outputs/imported_songs/amor_eterno_6/analysis/source_analysis.musicxml",
+  "manifest_path": "outputs/imported_songs/amor_eterno_6/song_manifest.json",
+  "draft_score_path": "outputs/imported_songs/amor_eterno_6/draft_score.mariachi.json",
+  "rights_note": "Store and analyze only music you own, created, licensed, or have permission to use. Do not redistribute copyrighted recordings."
+}

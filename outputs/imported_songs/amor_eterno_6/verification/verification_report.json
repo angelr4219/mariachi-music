@@ -1,0 +1,66 @@
+{
+  "target_score": 0.98,
+  "best_score": 0.4261,
+  "accepted": false,
+  "best_wav_path": "outputs/imported_songs/amor_eterno_6/verification/generated_best.wav",
+  "iterations": [
+    {
+      "score": 0.4257,
+      "chroma_similarity": 0.5882,
+      "onset_similarity": 0.4117,
+      "duration_similarity": 0.0845,
+      "original_duration_sec": 408.242,
+      "generated_duration_sec": 34.488,
+      "original_centroid_hz": 1558.626,
+      "generated_centroid_hz": 321.366,
+      "pitch_direction": "generated_too_low",
+      "rhythm_status": "mismatch",
+      "notes": [
+        "Generated audio is darker/lower than source; raise melodic parts first.",
+        "Rhythm/onset pattern differs strongly; regenerate or quantize rhythm before export.",
+        "Generated duration differs from source; section lengths or tempo need adjustment."
+      ],
+      "analysis_similarity": 0.13071895424836602
+    },
+    {
+      "score": 0.4261,
+      "chroma_similarity": 0.5926,
+      "onset_similarity": 0.4071,
+      "duration_similarity": 0.0845,
+      "original_duration_sec": 408.242,
+      "generated_duration_sec": 34.488,
+      "original_centroid_hz": 1558.626,
+      "generated_centroid_hz": 614.256,
+      "pitch_direction": "generated_too_low",
+      "rhythm_status": "mismatch",
+      "notes": [
+        "Generated audio is darker/lower than source; raise melodic parts first.",
+        "Rhythm/onset pattern differs strongly; regenerate or quantize rhythm before export.",
+        "Generated duration differs from source; section lengths or tempo need adjustment."
+      ],
+      "analysis_similarity": 0.13071895424836602
+    },
+    {
+      "score": 0.4258,
+      "chroma_similarity": 0.5909,
+      "onset_similarity": 0.4085,
+      "duration_similarity": 0.0845,
+      "original_duration_sec": 408.242,
+      "generated_duration_sec": 34.488,
+      "original_centroid_hz": 1558.626,
+      "generated_centroid_hz": 1173.169,
+      "pitch_direction": "ok",
+      "rhythm_status": "mismatch",
+      "notes": [
+        "Rhythm/onset pattern differs strongly; regenerate or quantize rhythm before export.",
+        "Generated duration differs from source; section lengths or tempo need adjustment."
+      ],
+      "analysis_similarity": 0.09803921568627451
+    }
+  ],
+  "next_actions": [
+    "Regenerate rhythm from onset/chord analysis; current notes are not matching strums.",
+    "Chord and note shape are still off from the source; tighten voicing and progression matching.",
+    "Match tempo and section length before note-level edits."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "target_score": 0.98,
+  "best_score": 0.4027,
+  "accepted": false,
+  "best_wav_path": "outputs/imported_songs/amor_eterno_rocio/verification/generated_best.wav",
+  "iterations": [
+    {
+      "score": 0.4027,
+      "chroma_similarity": 0.5807,
+      "onset_similarity": 0.3353,
+      "duration_similarity": 0.12,
+      "original_duration_sec": 408.242,
+      "generated_duration_sec": 49.0,
+      "original_centroid_hz": 1558.626,
+      "generated_centroid_hz": 320.099,
+      "pitch_direction": "generated_too_low",
+      "rhythm_status": "mismatch",
+      "notes": [
+        "Generated audio is darker/lower than source; raise melodic parts first.",
+        "Rhythm/onset pattern differs strongly; regenerate or quantize rhythm before export.",
+        "Generated duration differs from source; section lengths or tempo need adjustment."
+      ]
+    },
+    {
+      "score": 0.3966,
+      "chroma_similarity": 0.5699,
+      "onset_similarity": 0.3318,
+      "duration_similarity": 0.12,
+      "original_duration_sec": 408.242,
+      "generated_duration_sec": 49.0,
+      "original_centroid_hz": 1558.626,
+      "generated_centroid_hz": 615.31,
+      "pitch_direction": "generated_too_low",
+      "rhythm_status": "mismatch",
+      "notes": [
+        "Generated audio is darker/lower than source; raise melodic parts first.",
+        "Rhythm/onset pattern differs strongly; regenerate or quantize rhythm before export.",
+        "Generated duration differs from source; section lengths or tempo need adjustment."
+      ]
+    },
+    {
+      "score": 0.3943,
+      "chroma_similarity": 0.5663,
+      "onset_similarity": 0.3299,
+      "duration_similarity": 0.12,
+      "original_duration_sec": 408.242,
+      "generated_duration_sec": 49.0,
+      "original_centroid_hz": 1558.626,
+      "generated_centroid_hz": 1185.097,
+      "pitch_direction": "ok",
+      "rhythm_status": "mismatch",
+      "notes": [
+        "Rhythm/onset pattern differs strongly; regenerate or quantize rhythm before export.",
+        "Generated duration differs from source; section lengths or tempo need adjustment."
+      ]
+    }
+  ],
+  "next_actions": [
+    "Regenerate rhythm from onset/chord analysis; current notes are not matching strums.",
+    "Match tempo and section length before note-level edits."
+  ]
+}

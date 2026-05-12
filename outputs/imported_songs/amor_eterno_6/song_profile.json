@@ -1,0 +1,20 @@
+{
+  "title": "amor eterno",
+  "source": "https://www.youtube.com/watch?v=8DE4H7bd0vs",
+  "source_type": "youtube_url",
+  "genre": "bolero",
+  "tempo_bpm": 172.0,
+  "time_signature": "4/4",
+  "instruments": [
+    "Guitarr\u00f3n",
+    "Guitar",
+    "Violin"
+  ],
+  "strum_style": "strum_with_chord_on_top",
+  "section_notes": "",
+  "key": "C",
+  "mode": "major",
+  "beats_per_measure": 4,
+  "analysis_seconds": null,
+  "extra": {}
+}

@@ -1,0 +1,1173 @@
+{
+  "version": 1,
+  "title": "amor eterno Draft - Guitarr\u00f3n",
+  "composer": "",
+  "tempo": 172.0,
+  "key_signature": {
+    "root": "C",
+    "mode": "major"
+  },
+  "time_signature": {
+    "beats_per_measure": 4,
+    "beat_unit": 4
+  },
+  "parts": [
+    {
+      "instrument": "Guitarr\u00f3n",
+      "measures": [
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A#2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "E3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "F2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A1",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A#2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A1",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A1",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A#2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "F2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "F2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "F2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "F2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "F2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "E3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "F2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "E3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "F2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A#2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "C3",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "A#2",
+              "duration": "quarter",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

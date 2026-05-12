@@ -1,0 +1,16 @@
+{
+  "title": "amor-eterno-rocio",
+  "source": "https://www.youtube.com/watch?v=8DE4H7bd0vs",
+  "source_type": "youtube_url",
+  "song_dir": "outputs/imported_songs/amor_eterno_rocio",
+  "wav_path": "outputs/imported_songs/amor_eterno_rocio/source.wav",
+  "stems_dir": "outputs/imported_songs/amor_eterno_rocio/stems",
+  "stems": {
+    "guitarron": "outputs/imported_songs/amor_eterno_rocio/stems/guitarron.wav",
+    "rhythm": "outputs/imported_songs/amor_eterno_rocio/stems/rhythm.wav",
+    "violins": "outputs/imported_songs/amor_eterno_rocio/stems/violins.wav"
+  },
+  "manifest_path": "outputs/imported_songs/amor_eterno_rocio/song_manifest.json",
+  "draft_score_path": "outputs/imported_songs/amor_eterno_rocio/draft_score.mariachi.json",
+  "rights_note": "Store and analyze only music you own, created, licensed, or have permission to use. Do not redistribute copyrighted recordings."
+}

@@ -22,6 +22,7 @@ from mariachi_music.core.instrument import Instrument
 from mariachi_music.core.key_signature import KeySignature
 from mariachi_music.core.part import Part
 from mariachi_music.core.project_io import load_score_project, save_score_project
+from mariachi_music.core.project_io import save_score_project as save_draft_score_project
 from mariachi_music.core.tempo import Tempo
 from mariachi_music.core.time_signature import TimeSignature
 from mariachi_music.generation.scale_generator import generate_scale_score
@@ -31,11 +32,15 @@ from mariachi_music.mariachi import (
     classify_audio_genre,
     generate_mariachi_arrangement,
 )
+from mariachi_music.transcription.stem_score import create_draft_score_from_stems
+from mariachi_music.transcription.audio_verification import verify_score_against_audio
+from mariachi_music.transcription.library_exports import export_score_library
 from .controls_panel import ControlsPanel
 from .score_view import ScoreView
 from .export_panel import ExportPanel
 from .piano_roll import PianoRollWidget
 from .notation_view import NotationView
+from .song_import_view import SongImportView
 
 
 class MainWindow(QMainWindow):
@@ -93,6 +98,13 @@ class MainWindow(QMainWindow):
         self._piano_roll = PianoRollWidget()
         self._piano_roll.notes_changed.connect(self._on_notes_changed)
         self._center_tabs.addTab(self._piano_roll, "Piano Roll")
+
+        # Tab 3: import existing/authorized songs
+        self._song_import_view = SongImportView()
+        self._song_import_view.status_message.connect(self._show_status)
+        self._song_import_view.import_completed.connect(self._on_song_imported)
+        self._center_tabs.addTab(self._song_import_view, "Song Import")
+
         self._center_tabs.currentChanged.connect(self._on_tab_changed)
 
         splitter.addWidget(self._center_tabs)
@@ -175,6 +187,11 @@ class MainWindow(QMainWindow):
         staff_action.triggered.connect(lambda: self._center_tabs.setCurrentIndex(1))
         view_menu.addAction(staff_action)
 
+        import_action = QAction("Song Import", self)
+        import_action.setShortcut("Ctrl+4")
+        import_action.triggered.connect(lambda: self._center_tabs.setCurrentIndex(3))
+        view_menu.addAction(import_action)
+
         # Tools menu
         tools_menu = menubar.addMenu("Tools")
         gen_action = QAction("Generate Scale", self)
@@ -190,6 +207,10 @@ class MainWindow(QMainWindow):
         classify_action = QAction("Classify Audio Genre…", self)
         classify_action.triggered.connect(self._on_classify_audio)
         tools_menu.addAction(classify_action)
+
+        import_song_action = QAction("Import Existing Song…", self)
+        import_song_action.triggered.connect(lambda: self._center_tabs.setCurrentIndex(3))
+        tools_menu.addAction(import_song_action)
 
         # Help menu
         help_menu = menubar.addMenu("Help")
@@ -377,6 +398,49 @@ class MainWindow(QMainWindow):
         self._show_status(
             f"Audio guess: {guess.genre} ({guess.confidence:.3f}), "
             f"{guess.tempo_bpm:.1f} bpm, meter {guess.meter_hint}"
+        )
+
+    def _on_song_imported(self, result: object) -> None:
+        if not hasattr(result, "stems"):
+            self._show_status("Song import complete. WAV/stems are ready for transcription experiments.")
+            return
+
+        try:
+            tempo_bpm = getattr(result, "tempo_bpm", self._controls.tempo_spin.value())
+            time_signature = getattr(result, "time_signature", self._controls.time_sig_combo.currentText())
+            key = getattr(result, "key", self._controls.key_combo.currentText())
+            score = create_draft_score_from_stems(
+                result.stems,
+                title=f"{result.title} Draft",
+                key=key,
+                tempo=tempo_bpm,
+                time_signature=time_signature,
+            )
+            if getattr(result, "draft_score_path", ""):
+                save_draft_score_project(score, result.draft_score_path)
+            verification = verify_score_against_audio(
+                score,
+                result.wav_path,
+                Path(result.song_dir) / "verification",
+                target_score=0.98,
+                max_iterations=3,
+            )
+            library_exports = export_score_library(score, result.song_dir)
+        except Exception as exc:
+            self._show_status(f"Song import complete, draft score failed: {exc}")
+            QMessageBox.warning(self, "Draft Score Error", str(exc))
+            return
+
+        self._current_score = score
+        self._current_project_path = Path(result.draft_score_path) if getattr(result, "draft_score_path", "") else None
+        self._selected_part_index = 0
+        self._refresh_score_views()
+        self._song_import_view.set_audio_file(verification.best_wav_path)
+        self._show_status(
+            "Song import complete. Draft score loaded and verified "
+            f"(match {verification.best_score:.1%}). "
+            f"Files written to {library_exports.full_score_dir} and parts/. "
+            f"Analysis stored at {getattr(result, 'analysis_path', '')}."
         )
 
     def _on_add_instrument(self, name: str) -> None:

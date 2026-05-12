@@ -48,6 +48,12 @@ STEM_BANDS: list[StemBand] = [
     StemBand("high",  low_hz=2000.0, high_hz=8000.0, likely_instruments=("Violin", "Trumpet")),
 ]
 
+MARIACHI_EDIT_BANDS: list[StemBand] = [
+    StemBand("guitarron", low_hz=40.0, high_hz=180.0, likely_instruments=("Guitarrón",)),
+    StemBand("rhythm", low_hz=180.0, high_hz=1200.0, likely_instruments=("Vihuela", "Guitar")),
+    StemBand("violins", low_hz=500.0, high_hz=6000.0, likely_instruments=("Violin", "Trumpet")),
+]
+
 
 def print_stem_plan() -> None:
     """Print the configured stem bands."""
@@ -126,6 +132,32 @@ def separate_frequency_stems(
         A dict mapping stem name → output Path.
         Example: {'bass': Path('output/bass.wav'), 'mid': ..., 'high': ...}
     """
+    return _separate_bands(input_audio_path, output_dir, STEM_BANDS, normalize, overwrite)
+
+
+def separate_mariachi_edit_stems(
+    input_audio_path: str | Path,
+    output_dir: str | Path,
+    normalize: bool = True,
+    overwrite: bool = True,
+) -> dict[str, Path]:
+    """Separate audio into editable mariachi role stems.
+
+    The bands are intentionally tuned for editing workflows:
+      - guitarron: low bass fundamentals
+      - rhythm: vihuela/guitar body and strums
+      - violins: upper melodic instruments
+    """
+    return _separate_bands(input_audio_path, output_dir, MARIACHI_EDIT_BANDS, normalize, overwrite)
+
+
+def _separate_bands(
+    input_audio_path: str | Path,
+    output_dir: str | Path,
+    bands: list[StemBand],
+    normalize: bool,
+    overwrite: bool,
+) -> dict[str, Path]:
     input_audio_path = Path(input_audio_path)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -139,7 +171,7 @@ def separate_frequency_stems(
         "stems": {},
     }
 
-    for band in STEM_BANDS:
+    for band in bands:
         out_path = output_dir / f"{band.name}.wav"
         if out_path.exists() and not overwrite:
             saved[band.name] = out_path

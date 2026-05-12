@@ -1,0 +1,33 @@
+{
+  "source": "outputs/imported_songs/amor_eterno_3/source.wav",
+  "sample_rate": 48000,
+  "stems": {
+    "bass": {
+      "path": "outputs/imported_songs/amor_eterno_3/stems/bass.wav",
+      "low_hz": 40.0,
+      "high_hz": 250.0,
+      "likely_instruments": [
+        "Guitarr\u00f3n"
+      ]
+    },
+    "mid": {
+      "path": "outputs/imported_songs/amor_eterno_3/stems/mid.wav",
+      "low_hz": 250.0,
+      "high_hz": 2000.0,
+      "likely_instruments": [
+        "Vihuela",
+        "Guitar",
+        "Voice"
+      ]
+    },
+    "high": {
+      "path": "outputs/imported_songs/amor_eterno_3/stems/high.wav",
+      "low_hz": 2000.0,
+      "high_hz": 8000.0,
+      "likely_instruments": [
+        "Violin",
+        "Trumpet"
+      ]
+    }
+  }
+}

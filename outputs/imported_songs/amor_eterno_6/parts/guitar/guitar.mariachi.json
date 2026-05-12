@@ -1,0 +1,4981 @@
+{
+  "version": 1,
+  "title": "amor eterno Draft - Guitar",
+  "composer": "",
+  "tempo": 172.0,
+  "key_signature": {
+    "root": "C",
+    "mode": "major"
+  },
+  "time_signature": {
+    "beats_per_measure": 4,
+    "beat_unit": 4
+  },
+  "parts": [
+    {
+      "instrument": "Guitar",
+      "measures": [
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        },
+        {
+          "time_signature": {
+            "beats_per_measure": 4,
+            "beat_unit": 4
+          },
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "G3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": false,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "B3",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            },
+            {
+              "type": "note",
+              "pitch": "D4",
+              "duration": "eighth",
+              "velocity": 90,
+              "chord": true,
+              "tie_start": false,
+              "tie_end": false,
+              "lyrics": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
